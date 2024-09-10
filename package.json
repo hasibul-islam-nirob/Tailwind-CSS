@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css -w"
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/styles.css --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": "Hasibul Islam Nirob",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.4.10"
